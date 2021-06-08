@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-<title>CSS Template</title>
+    <head>
+<title>Rīgas Valsts 1. ģimnāzija</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -30,11 +29,9 @@ section {
 
 /* Style the navigation menu */
 nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #ccc;
-  padding: 20px;
+  background-image: url(images/skola.jpg);
+  background-repeat: repeat-y;
+  background-position: left top;
 }
 
 /* Style the list inside the menu */
@@ -80,13 +77,15 @@ table, th, td {
   <h2>Rīgas Valsts 1. ģimnāzija</h2>
 </header>
   
-    <section><h2> Satura rādītājs</h2>
+    <section>
+        
   <nav>
+      <h2>Satura rādītājs</h2>  
     <ul>
-      <li>1.<a href="#S1">Vēsture</a></li>
-      <li>2.<a href="#S2">Skolas nosaukums</a></li>
-      <li>3.<a href="#S3">Zināmie skolas vadītāji(1229-1804)</a></li>
-      <li>4.<a href="#S4">Skolas absolventi</a></li>
+      <li>1. <a href="#S1">Vēsture</a></li>
+      <li>2. <a href="#S2">Skolas nosaukums</a></li>
+      <li>3. <a href="#S3">Zināmie skolas vadītāji(1229-1804)</a></li>
+      <li>4. <a href="#S4">Skolas absolventi</a></li>
     </ul>
   </nav>
   
@@ -117,7 +116,7 @@ table, th, td {
     
     <h2 id="S3">Zināmie skolas vadītāji (1229—1804)</h2>
     <table style="width:100%">
-        <tr>
+        <tbody><tr>
             <th>Laika periods</th>
             <th>Skolas vadītājs</th>
         </tr>
@@ -181,21 +180,22 @@ table, th, td {
             <td>līdz 1804.</td>
             <td>rektors Johans Augusts Albanuss</td>
         </tr>
-    </table>
+    </tbody></table>
     
     <h2 id="S4">Skolas absolventi</h2>
     <p>Tomass Dukurs</p>
     <p>Valters Frīdenbergs</p> 
     <p>Toms Skujiņš</p>
     <p>Daina Taimiņa</p>
-    <a href='https://enciklopedija.lv/skirklis/55869-Rainis'>Rainis(Jānis Krišjānis Pliekšāns)</a>
+    <a href="https://enciklopedija.lv/skirklis/55869-Rainis" target="_blank">Rainis(Jānis Krišjānis Pliekšāns)</a>
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+    <a href="http://r1g.edu.lv/v/index/" target="_blank">
+        <img src="images/skolas logo.jpg" alt="skolas logo" width="160" height="100">
+    </a>
 </footer>
 
 </body>
 </html>
-
